@@ -72,6 +72,7 @@ header {
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
+    text-decoration: none;
 }
 
 /* Menu */

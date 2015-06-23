@@ -44,10 +44,6 @@ a {
 
 /* Header */
 
-#header-wrapper {
-    overflow: hidden;
-}
-
 #header {
     width: 80%;
     height: 150px;

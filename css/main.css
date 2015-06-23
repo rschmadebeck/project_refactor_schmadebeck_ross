@@ -42,11 +42,6 @@ a {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
 
-.container {
-    width: 1000px;
-    margin: 0px auto;
-}
-
 /* Header */
 
 #header-wrapper {
@@ -54,7 +49,7 @@ a {
 }
 
 #header {
-    width: 1000px;
+    width: 80%;
     height: 150px;
     margin: 0 auto;
     padding: 0px 0px;

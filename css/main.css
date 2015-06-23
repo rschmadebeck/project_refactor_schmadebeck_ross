@@ -34,9 +34,6 @@ p, ul, ol {
     line-height: 180%;
 }
 
-ul, ol {
-}
-
 a {
     color: #5E5E5E;
 }
@@ -70,8 +67,7 @@ a:hover {
 
 #logo {
     float: left;
-    width: 90%;
-    max-width: 300px;
+    width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;

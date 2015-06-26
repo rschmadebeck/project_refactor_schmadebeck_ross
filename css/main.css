@@ -145,7 +145,7 @@ nav a:hover, nav .current_page_item a {
 
 #content {
     float: right;
-    width: 65%;
+    width: 60%;
     padding: 0px 0px 0px 0px;
 }
 
@@ -220,7 +220,7 @@ nav a:hover, nav .current_page_item a {
 
 aside {
     float: left;
-    width: 30%;
+    width: 35%;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
@@ -242,7 +242,7 @@ aside li ul {
 }
 
 aside li li {
-    line-height: 40px;
+    line-height: 30px;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
@@ -292,11 +292,34 @@ footer p {
         width: 120%;
         margin-left: -3em;
     }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    .post {
+    margin-bottom: 10px;
+    }
+
+    .post .entry {
+    padding: 0px 0px 20px 0px;
+    }
+
 }
 
 @media (max-width: 320px) {
     nav li {
         width: 120%;
         margin-left: -1.5em;
+    }
+
+    #content {
+        width: 100%;
+        clear: both;
+    }
+
+    aside {
+        width: 100%;
+        clear: both;
     }
 }

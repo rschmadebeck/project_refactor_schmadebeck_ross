@@ -56,7 +56,7 @@ header {
 
 #logo {
     float: left;
-    width: 50%;
+    width: 30%;
     max-width: 200px;
     margin: 0;
     padding: 0;
@@ -69,12 +69,6 @@ header {
     font-size: 3em;
 }
 
-/*@media max-width (400px) {
-    #logo h1 {
-        font-size: 2em;
-    }
-}*/
-
 #logo h1 a {
     color: #1F1F1F;
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
@@ -84,15 +78,13 @@ header {
 /* Menu */
 
 nav {
-    float: right;
-    width: 65%;
-    height: 90px;
-    margin: 0 auto;
+    width: 70%;
+    margin-top: 20px;
+    margin: auto;
     padding: 0;
 }
 
 nav ul {
-    float: right;
     margin: 0;
     padding: 20px 0px 0px 0px;
     list-style: none;
@@ -105,7 +97,7 @@ nav li {
 
 nav a {
     display: block;
-    line-height: 100px;
+    line-height: 50px;
     margin-right: 1px;
     padding: 0px 20px 0px 20px;
     text-decoration: none;
@@ -113,7 +105,7 @@ nav a {
     text-shadow: 1px 1px 0px rgba(0,0,0,.2);
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: 300;
     color: #1F1F1F;
     border: none;
@@ -275,7 +267,6 @@ aside p {
     text-align: justify;
 }
 
-
 /* Footer */
 
 footer {
@@ -294,4 +285,18 @@ footer p {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
+}
+
+@media (max-width: 700px) {
+    nav li {
+        width: 120%;
+        margin-left: -3em;
+    }
+}
+
+@media (max-width: 320px) {
+    nav li {
+        width: 120%;
+        margin-left: -1.5em;
+    }
 }

@@ -261,14 +261,6 @@ header {
     text-align: justify;
 }
 
-#sidebar a {
-    border: none;
-}
-
-#sidebar a:hover {
-    text-decoration: underline;
-}
-
 
 /* Footer */
 

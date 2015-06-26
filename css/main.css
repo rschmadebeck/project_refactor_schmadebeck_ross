@@ -153,7 +153,7 @@ nav a:hover, nav .current_page_item a {
 
 #content {
     float: right;
-    width: 660px;
+    width: 65%;
     padding: 0px 0px 0px 0px;
 }
 
@@ -228,7 +228,7 @@ nav a:hover, nav .current_page_item a {
 
 #sidebar {
     float: left;
-    width: 270px;
+    width: 30%;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }

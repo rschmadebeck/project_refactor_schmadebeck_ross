@@ -56,18 +56,24 @@ header {
 
 #logo {
     float: left;
-    width: 90%;
-    max-width: 300px;
+    width: 50%;
+    max-width: 200px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
 }
 
 #logo h1 {
-    line-height: 120px;
+    line-height: 2em;
     letter-spacing: -2px;
-    font-size: 3.8em;
+    font-size: 3em;
 }
+
+/*@media max-width (400px) {
+    #logo h1 {
+        font-size: 2em;
+    }
+}*/
 
 #logo h1 a {
     color: #1F1F1F;
@@ -79,7 +85,7 @@ header {
 
 nav {
     float: right;
-    width: 500px;
+    width: 65%;
     height: 90px;
     margin: 0 auto;
     padding: 0;

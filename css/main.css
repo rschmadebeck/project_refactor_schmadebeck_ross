@@ -119,6 +119,19 @@ header {
     color: #FFFFFF;
 }
 
+#banner {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+
+#banner img {
+    border-radius: 0px;
+    width: 100%;
+    heigh: auto;
+}
+
 /* Page */
 
 #page {
@@ -281,11 +294,4 @@ footer p {
     text-transform: uppercase;
     text-align: center;
     color: #5E5E5E;
-}
-
-#banner {
-    margin: 0px auto;
-    width: 1000px;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
 }

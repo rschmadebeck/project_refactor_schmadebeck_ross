@@ -256,14 +256,6 @@ aside li li {
     border-left: none;
 }
 
-aside li li span {
-    display: block;
-    margin-top: -20px;
-    padding: 0;
-    font-size: 11px;
-    font-style: italic;
-}
-
 aside li li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
